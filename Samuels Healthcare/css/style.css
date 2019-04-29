@@ -1,0 +1,144 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+/*-----------------------------HEALTH APPOINTMENT AND TIPS SECTION----------------------*/
+.containers {
+	    background-color: #DCDCDC;
+		padding-top:  50px;
+		padding-bottom: 25px;
+		text-align: center;
+			
+			}
+			
+	.containers:after {
+	 content: '';
+	 display: block;
+	 clear: both;
+	
+	}
+	
+	
+			
+.containers .health-section, .containers .appointment-section, .containers .tips-section	{
+		   background-color: #DCDCDC;
+	       width: 33.333333%;
+		   display: inline-block;
+		   float: left; /* so that the colums align properly*/
+		   box-sizing: border-box; /*to contain elements, without this the elements will not stay in the same line after adding padding*/
+		   padding-left: 5%;
+		   padding-right: 5%;
+	 
+	       }
+
+i {
+	font-size: 24px;
+	} 
+	
+
+/*-------------CATEGORIES1 FOR IMAGES ---------------------*/
+	
+	.categories1 {
+		width: 100%;
+		display:inline-block;
+		text-align: center;
+		padding-left: 45px;
+		padding-right: 60px;
+	
+	}
+	
+
+	
+.categories1 .col-1, .categories1 .col-2, .categories1 .col-3 {
+	     display:inline-block;
+	     width: 33.3333333%;
+		 float: left;
+		 box-sizing: border-box;
+		 padding-left: 5%;
+		 padding-right: 5%;
+		 
+	}
+	
+.categories1:after {
+	 content: '';
+	 display: block;
+	 clear: both;
+	
+	}
+
+.categories1 img {
+	width: 75%;
+	height: 100px;
+	border: 10px;
+	margin-top: 5px;
+	margin-bottom:5px;
+	margin-left:10px;
+	margin-right: 10px;
+	
+	}
+	
+.categories1 p {
+	font-size: 16px;
+	font-weight: bold;
+	text-align: center;
+	}
+
+	
+/*----------------------------ABOUT US SECTION---------------------------------*/
+	
+	
+	.containers1 {
+	    background-color: #DCDCDC;
+		padding-top:  50px;
+		padding-bottom: 25px;
+		text-align: center;
+			
+			}
+	
+	.containers1:after {
+	 content: '';
+	 display: block;
+	 clear: both;
+	
+	}
+	
+	.containers1 .about-section2, .containers1 .vision-section {
+		 background-color: #DCDCDC;
+	       width: 50%;
+		   display: inline-block;
+		   float: left; /* so that the colums align properly*/
+		   box-sizing: border-box; /*to contain elements, without this the elements will not stay in the same line after adding padding*/
+		   padding-left: 5%;
+		   padding-right: 5%;
+	 
+	       }
+	
+	
+	
+	
+/*--------------------------------------CONTACT SECTION--------------------------------------*/	
+	
+	.container-contact {
+		margin: auto;
+		align-content: center;
+		
+		}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
